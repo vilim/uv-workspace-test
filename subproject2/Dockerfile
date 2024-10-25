@@ -4,7 +4,7 @@ ARG BASE_IMAGE="ghcr.io/astral-sh/uv:python3.12-bookworm-slim"
 # Image for building uv environment
 ###################################################
 
-FROM ${BASE_IMAGE} as uv-test-build
+FROM ${BASE_IMAGE} AS uv-test-build
 
 #USER root
 #RUN apt-get update && apt-get install -y libgl1
